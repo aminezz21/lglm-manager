@@ -1,0 +1,16 @@
+node_modules/
+build/
+dist/
+dist_desktop/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Fichiers de données volumineux
+lglm_recovered_backup.json
+lglm_recovered_backup_FIXED.json
+recovered_database.json
+raw_extracted_data.txt
+Local Storage/

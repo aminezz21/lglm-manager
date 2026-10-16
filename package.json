@@ -1,0 +1,75 @@
+{
+  "name": "react-example",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "main": "electron-main.cjs",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist server.js dist_desktop",
+    "lint": "tsc --noEmit",
+    "electron:dev": "npm run build && electron .",
+    "electron:build": "npm run build && electron-builder build --win --publish=never"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "@tailwindcss/vite": "^4.1.14",
+    "@vitejs/plugin-react": "^5.0.4",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "vite": "^6.2.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "autoprefixer": "^10.4.21",
+    "classic-level": "^1.4.1",
+    "electron": "^31.3.0",
+    "electron-builder": "^24.13.3",
+    "esbuild": "^0.25.0",
+    "level": "^8.0.1",
+    "tailwindcss": "^4.1.14",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3"
+  },
+  "build": {
+    "appId": "com.lglm.manager",
+    "productName": "LGLM Manager",
+    "directories": {
+      "output": "dist_desktop"
+    },
+    "files": [
+      "dist/**/*",
+      "electron-main.cjs",
+      "preload.cjs",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "src/assets/images/logo_desktop_1782417247790.jpg"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": false,
+      "createDesktopShortcut": "always",
+      "createStartMenuShortcut": true,
+      "shortcutName": "LGLM Manager"
+    }
+  },
+  "allowScripts": {
+    "electron@31.7.7": true,
+    "esbuild@0.25.12": true,
+    "esbuild@0.28.1": true,
+    "protobufjs@7.6.4": true,
+    "@google/genai@2.10.0": true
+  }
+}

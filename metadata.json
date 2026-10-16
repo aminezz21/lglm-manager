@@ -1,0 +1,6 @@
+{
+  "name": "BrikechCo Rent Car Manager",
+  "description": "Logiciel de gestion de location de voitures professionnel avec tableau de bord, réservations, facturation, gestion financière et des chauffeurs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
