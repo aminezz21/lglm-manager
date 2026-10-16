@@ -15,6 +15,12 @@
 **Application de bureau Windows native tout-en-un pour les agences de location de véhicules.**  
 Gestion de flotte, contrats, facturation, finances et chauffeurs — 100% hors-ligne et sécurisée.
 
+<br/>
+
+<p align="center">
+  <img src="screenshots/01-tableau-de-bord.png" alt="LGLM Manager Aperçu" width="920" style="border-radius: 8px; box-shadow: 0 8px 30px rgba(0,0,0,0.2);" />
+</p>
+
 ---
 
 </div>
@@ -90,6 +96,38 @@ Gestion de flotte, contrats, facturation, finances et chauffeurs — 100% hors-l
 - Thème Clair / Sombre
 - Sauvegarde JSON complète / Restauration / Export Excel
 - Réinitialisation avec sauvegarde automatique de précaution
+
+---
+
+## 🖥️ Captures d'Écran
+
+### 1. Tableau de Bord (Dashboard)
+Vue synthétique de l'agence : métriques du parc, graphiques des revenus, alertes de vidange et retours planifiés.
+![Tableau de Bord](screenshots/01-tableau-de-bord.png)
+
+### 2. Gestion de la Flotte Automobile
+Catalogue de l'ensemble des véhicules avec statut instantané (Disponible / Louée), kilométrage et alertes.
+![Parc Véhicules](screenshots/02-parc-automobiles.png)
+
+### 3. Réservations & Contrats de Location
+Gestion des contrats en cours, historique client, acomptes et solde avec impression de contrat instantanée.
+![Réservations](screenshots/03-gestion-reservations.png)
+
+### 4. Facturation & Devis
+Édition de factures et devis conformes aux normes comptables avec calcul automatique de la TVA.
+![Facturation](screenshots/04-facturation-devis.png)
+
+### 5. Gestion Financière & Trésorerie
+Suivi des entrées, sorties par catégorie et calcul en direct du résultat net d'exploitation.
+![Gestion Financière](screenshots/05-gestion-financiere.png)
+
+### 6. Gestion des Chauffeurs & Collaborateurs
+Suivi des collaborateurs, commissions et salaires imputés en charges réelles.
+![Chauffeurs](screenshots/06-chauffeurs.png)
+
+### 7. Paramètres & Sécurité
+Personnalisation des coordonnées de l'agence, logo, TVA, code PIN de verrouillage et gestion des sauvegardes.
+![Paramètres](screenshots/07-parametres-agence.png)
 
 ---
 
